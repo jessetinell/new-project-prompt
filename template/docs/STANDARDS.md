@@ -96,8 +96,6 @@ Replace text with visual signals:
 - Category or market → small icon or chip, not a kicker line
 - Warnings → one-line banner with an icon, not a paragraph
 
-Hierarchy comes from size, weight and whitespace, not from labels explaining what each section is.
-
 Text budget per page:
 
 - 1 page title, optionally 1 short subtitle (max 8 words)
@@ -106,11 +104,22 @@ Text budget per page:
 - List items: title + max 1 line of detail.
 - Any single fact appears once per screen.
 
+### Visual hierarchy
+
+**Mandatory.** Every screen tells the eye where to look first, second, third, through size, weight, contrast and whitespace, never through labels explaining each section.
+
+- **One focal point per screen:** the key number, item or action is clearly the most prominent thing.
+- **One primary action per view;** everything else is secondary or a text button.
+- **Few type sizes:** one large title, then small steps; use weight and color for the rest.
+- **Quiet the secondary, don't shout the primary:** smaller, lighter, gray (still WCAG AA contrast) instead of more bold.
+- **Order and group:** most important first; related things close together, more space between groups than within; one grid.
+- **Squint test:** blur the screen; the most important thing must still stand out.
+
 ### Visual style
 
-- **System font stack,** a clear type scale (one large title, then small steps); tight letter-spacing on headings.
+- **System font stack;** tight letter-spacing on headings.
 - **Neutral palette plus one accent.** Color carries meaning (status, priority), never decoration.
-- **Generous whitespace** on a consistent spacing scale; group with space and soft cards, not borders and boxes.
+- **Generous whitespace** on a consistent spacing scale (e.g. 4/8 px); soft cards, not borders and boxes.
 - **Soft depth:** rounded corners, subtle shadows, hairline dividers.
 - **Recognizable visuals over words:** logos, avatars and icons help people place things instantly.
 - **Quiet motion:** short, purposeful transitions (drawers, hovers); nothing decorative.
@@ -119,7 +128,7 @@ Text budget per page:
 ### Interaction
 
 - Fast paths for power users: keyboard shortcuts, search, deep links to specific items.
-- Light and dark mode; mobile-safe (16px gutters, no horizontal scroll).
+- **Light mode only,** unless the user asks for dark. Mobile-safe (16px gutters, no horizontal scroll).
 - Data stays live without manual refresh where it changes in the background.
 
 ## Docs every project keeps
