@@ -1,0 +1,3 @@
+@AGENTS.md
+@docs/STANDARDS.md
+@docs/COST_CAUTIONS.md
